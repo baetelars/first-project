@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="index.html">
+     <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+<body class="budy">
+    <nav>
+        <a href="#" class="logo"><img src="logo.png" alt="LOGO"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a>
+                <ul>
+                    <li><a href="">Portret</a></li>
+                    <li><a href="">Landschap</a></li>
+                    <li><a href="">Dieren</a></li>
+                </ul>
+            </li>
+            <li><a href="Products.html">Producten</a></li>
+            <li><a href="about.html">Over Mezelf</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    <div class="contact-title">
+        <h1>Contactformulier</h1>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="">
+            <div>
+                <i class="material-icons prefix">account_circle</i>
+                <input name="name" type="text" class="form-control" placeholder="Voornaam" required><br>
+            </div>
+            <div>
+                <i class="material-icons prefix">account_circle</i>
+                <input name="name" type="text" class="form-control" placeholder="Achternaam" required><br>
+            </div>
+            <div>
+                <i class="material-icons prefix">email</i>
+                <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+            </div>
+            <div>
+                <i class="material-icons prefix">phone</i>
+                <input name="phone" type="phone" class="form-control" placeholder="Telefoon"><br>
+            </div>
+            <div>
+                <i class="material-icons prefix" id="create">create</i>
+                <textarea name="message" class="form-control" placeholder="Schrijf hier uw bericht..." rows="5" required></textarea><br>
+            </div>
+            <button class="form-btn">verstuur</button>
+        </form>
+    </div>
+
+         <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
