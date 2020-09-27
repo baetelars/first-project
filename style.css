@@ -92,7 +92,7 @@ form {
     background-color: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(245, 143, 10);
     color: #fff;
     margin-bottom: 15px;
 }
